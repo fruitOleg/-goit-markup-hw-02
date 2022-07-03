@@ -21,7 +21,6 @@
 }
 .title {
   font-family: var(--main-fonts);
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -33,7 +32,6 @@
 /*header*/
 .logo-head {
   font-family: var(--logo-fonts);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1;
@@ -42,7 +40,6 @@
 }
 .logo-head-accent {
   font-family: var(--logo-fonts);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1;
@@ -51,7 +48,6 @@
 }
 .nav-link-current {
   font-family: var(--main-fonts);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -61,7 +57,6 @@
 }
 .nav-link {
   font-family: var(--main-fonts);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -69,9 +64,14 @@
   text-decoration: none;
   color: var(--main-text-color);
 }
+.nav-link:hover {
+  color: var(--accent-text-color);
+}
+.nav-link:focus {
+  color: var(--accent-text-color);
+}
 .contacts-nav {
   font-family: var(--main-fonts);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -79,10 +79,10 @@
   text-decoration: none;
   color: #757575;
 }
-.contacts-nav,.nav-link:hover {
+.contacts-nav:hover {
   color: var(--accent-text-color);
 }
-.contacts-nav,.nav-link:focus {
+.contacts-nav:focus {
   color: var(--accent-text-color);
 }
 
@@ -101,29 +101,28 @@
 }
 .nav-butons-current {
   font-family: var(--main-fonts);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #ffffff;
+  cursor: pointer;
   background: var(--accent-text-color);
 }
 .nav-butons {
   font-family: var(--main-fonts);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
   color: var(--main-text-color);
   background: var(--light-bg-color);
 }
 .hero-title {
   font-family: var(--main-fonts);
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -132,7 +131,6 @@
 }
 .hero-text {
   font-family: var(--main-fonts);
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
@@ -157,7 +155,6 @@
 }
 .logo-foot {
   font-family: var(--logo-fonts);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1;
@@ -166,7 +163,6 @@
 }
 .logo-foot-accent {
   font-family: var(--logo-fonts);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1;
@@ -175,7 +171,6 @@
 }
 .address {
   font-family: var(--main-fonts);
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -185,7 +180,6 @@
 }
 .contacts-foot {
   font-family: var(--main-fonts);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
