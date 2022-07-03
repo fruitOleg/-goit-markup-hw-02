@@ -24,7 +24,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
@@ -36,7 +36,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.1;
   text-decoration: none;
   color: var(--accent-text-color);
 }
@@ -45,7 +45,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.1;
   text-decoration: none;
   color: var(--main-text-color);
 }
@@ -54,7 +54,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--accent-text-color);
@@ -64,25 +64,25 @@
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--main-text-color);
-}
-.nav-link:hover {
-  color: var(--accent-text-color);
 }
 .contacts-nav {
   font-family: var(--main-fonts);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
 }
-.contacts-nav:hover {
+.nav-link,.contacts-nav:hover {
+  color: var(--accent-text-color);
+}
+.nav-link,.contacts-nav:focus {
   color: var(--accent-text-color);
 }
 
@@ -115,22 +115,18 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   background: var(--light-bg-color);
-}
-.nav-butons:hover {
-  color: #ffffff;
-  background-color: var(--accent-text-color);
 }
 .hero-title {
   font-family: var(--main-fonts);
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
 }
@@ -139,9 +135,20 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.hero-card{
+   cursor: pointer;
+}
+.nav-butons:hover {
+  color: #ffffff;
+  background-color: var(--accent-text-color);
+}
+.nav-butons:focus {
+  color: #ffffff;
+  background-color: var(--accent-text-color);
 }
 
 /*footer*/
@@ -153,7 +160,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.1;
   text-decoration: none;
   color: var(--accent-text-color);
 }
@@ -162,7 +169,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.1;
   text-decoration: none;
   color: #ffffff;
 }
@@ -171,7 +178,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
@@ -181,7 +188,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
