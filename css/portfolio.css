@@ -137,8 +137,8 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
-.hero-card{
-   cursor: pointer;
+.hero-card {
+  cursor: pointer;
 }
 .nav-butons:hover {
   color: #ffffff;
@@ -171,6 +171,7 @@
 }
 .address {
   font-family: var(--main-fonts);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -180,6 +181,7 @@
 }
 .contacts-foot {
   font-family: var(--main-fonts);
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
