@@ -79,10 +79,10 @@
   text-decoration: none;
   color: #757575;
 }
-.nav-link,.contacts-nav:hover {
+.contacts-nav,.nav-link:hover {
   color: var(--accent-text-color);
 }
-.nav-link,.contacts-nav:focus {
+.contacts-nav,.nav-link:focus {
   color: var(--accent-text-color);
 }
 
