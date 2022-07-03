@@ -12,7 +12,6 @@
   --accent-text-color: #2196f3;
 }
 
-
 .body {
   font-family: var(--main-fonts), sans-serif;
   color: var(--main-text-color);
@@ -73,16 +72,6 @@
 .nav-link:hover {
   color: var(--accent-text-color);
 }
-.contacts-nav-current {
-  font-family: var(--main-fonts);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--accent-text-color);
-}
 .contacts-nav {
   font-family: var(--main-fonts);
   font-style: normal;
@@ -94,32 +83,7 @@
   color: #757575;
 }
 
-/*order section*/
-.order-section {
-  background: var(--dark-bg-color);
-}
-.order-title {
-  font-family: var(--main-fonts);
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  color: #ffffff;
-}
-.order-button {
-  font-family: var(--main-fonts);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  color: #ffffff;
-  cursor: pointer;
-  background-color: var(--accent-text-color);
-}
-.order-button:active {
-  background-color: var(--accent-text-color);
-}
-/*benefits section*/
+/*section*/
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -132,49 +96,45 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.benefit-title {
-  font-family: var(--main-fonts);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--main-text-color);
-}
-.benefit-text {
-  font-family: var(--main-fonts);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-
-/*hero section*/
-.hero-bg {
-  background-color: var(--light-bg-color);
-}
-.hero-name {
+.nav-butons-current {
   font-family: var(--main-fonts);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: var(--accent-text-color);
+}
+.nav-butons {
+  font-family: var(--main-fonts);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  background: var(--light-bg-color);
 }
-.hero-text {
-  font-family: var(--main-fonts);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
+.hero-title{
+font-family: var(--main-fonts);
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: var(--main-text-color);
+}
+.hero-text{
+font-family: var(--main-fonts);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
 }
 
 /*footer*/
