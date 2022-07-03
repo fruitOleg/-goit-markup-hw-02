@@ -12,7 +12,6 @@
   --accent-text-color: #2196f3;
 }
 
-
 .body {
   font-family: var(--main-fonts), sans-serif;
   color: var(--main-text-color);
@@ -93,8 +92,8 @@
   text-decoration: none;
   color: #757575;
 }
-.contacts-nav:hover{
-   color: var(--accent-text-color);
+.contacts-nav:hover {
+  color: var(--accent-text-color);
 }
 
 /*order section*/

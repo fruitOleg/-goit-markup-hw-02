@@ -82,8 +82,8 @@
   text-decoration: none;
   color: #757575;
 }
-.contacts-nav:hover{
-   color: var(--accent-text-color);
+.contacts-nav:hover {
+  color: var(--accent-text-color);
 }
 
 /*section*/
@@ -121,27 +121,27 @@
   color: var(--main-text-color);
   background: var(--light-bg-color);
 }
-.nav-butons:hover{
-color: #ffffff;
-background-color: var(--accent-text-color);
+.nav-butons:hover {
+  color: #ffffff;
+  background-color: var(--accent-text-color);
 }
-.hero-title{
-font-family: var(--main-fonts);
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.06em;
-color: var(--main-text-color);
+.hero-title {
+  font-family: var(--main-fonts);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
 }
-.hero-text{
-font-family: var(--main-fonts);
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;
-color: #757575;
+.hero-text {
+  font-family: var(--main-fonts);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 /*footer*/
