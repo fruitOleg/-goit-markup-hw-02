@@ -82,6 +82,9 @@
   text-decoration: none;
   color: #757575;
 }
+.contacts-nav:hover{
+   color: var(--accent-text-color);
+}
 
 /*section*/
 .visually-hidden {
@@ -117,6 +120,10 @@
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   background: var(--light-bg-color);
+}
+.nav-butons:hover{
+color: #ffffff;
+background-color: var(--accent-text-color);
 }
 .hero-title{
 font-family: var(--main-fonts);
