@@ -70,15 +70,6 @@
 .nav-link:focus {
   color: var(--accent-text-color);
 }
-.contacts-nav-current {
-  font-family: var(--main-fonts);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--accent-text-color);
-}
 .contacts-nav {
   font-family: var(--main-fonts);
   font-weight: 500;
@@ -115,8 +106,11 @@
   cursor: pointer;
   background-color: var(--accent-text-color);
 }
-.order-button:active {
-  background-color: var(--accent-text-color);
+.order-button:hover {
+  background-color: #188CE8;
+}
+.order-button:focus {
+  background-color: #188CE8;
 }
 /*benefits section*/
 .visually-hidden {
@@ -210,5 +204,5 @@
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
 }
