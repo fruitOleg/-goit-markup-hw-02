@@ -12,7 +12,7 @@
   --accent-text-color: #2196f3;
 }
 
-.body {
+body {
   font-family: var(--main-fonts), sans-serif;
   color: var(--main-text-color);
 }
@@ -20,7 +20,6 @@
   list-style: none;
 }
 .title {
-  font-family: var(--main-fonts);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -47,7 +46,6 @@
   color: var(--main-text-color);
 }
 .nav-link-current {
-  font-family: var(--main-fonts);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -56,7 +54,6 @@
   color: var(--accent-text-color);
 }
 .nav-link {
-  font-family: var(--main-fonts);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -71,7 +68,6 @@
   color: var(--accent-text-color);
 }
 .contacts-nav {
-  font-family: var(--main-fonts);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -100,7 +96,6 @@
   overflow: hidden;
 }
 .nav-butons-current {
-  font-family: var(--main-fonts);
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -111,7 +106,6 @@
   background: var(--accent-text-color);
 }
 .nav-butons {
-  font-family: var(--main-fonts);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -122,7 +116,6 @@
   background: var(--light-bg-color);
 }
 .hero-title {
-  font-family: var(--main-fonts);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -130,7 +123,6 @@
   color: var(--main-text-color);
 }
 .hero-text {
-  font-family: var(--main-fonts);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
@@ -171,7 +163,6 @@
   color: #ffffff;
 }
 .address {
-  font-family: var(--main-fonts);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -181,7 +172,6 @@
   text-decoration: none;
 }
 .contacts-foot {
-  font-family: var(--main-fonts);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
