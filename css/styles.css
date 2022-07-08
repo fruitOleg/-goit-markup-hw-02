@@ -82,6 +82,8 @@
   color: var(--accent-text-color);
 }
 
+/*index html*/
+
 /*order section*/
 .order-section {
   background: var(--dark-bg-color);
@@ -155,6 +157,69 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+
+/*portfolio*/
+
+/*section*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.nav-butons-current {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  cursor: pointer;
+  background: var(--accent-text-color);
+}
+.nav-butons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--main-text-color);
+  background: var(--light-bg-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.hero-card {
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav-butons:hover {
+  color: #ffffff;
+  background-color: var(--accent-text-color);
+}
+.nav-butons:focus {
+  color: #ffffff;
+  background-color: var(--accent-text-color);
 }
 
 /*footer*/
